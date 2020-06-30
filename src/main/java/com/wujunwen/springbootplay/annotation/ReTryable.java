@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Aspect
 @Target(ElementType.METHOD)
-public @com.example.demo.interface ReTryable {
+public @interface ReTryable {
     public Class retryBy() ;
 
     public int times() default 3;

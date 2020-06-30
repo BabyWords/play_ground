@@ -5,6 +5,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 @Documented
-public @com.example.demo.interface CacheGet {
+public @interface CacheGet {
 
 }

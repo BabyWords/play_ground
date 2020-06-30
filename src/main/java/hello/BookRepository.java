@@ -1,5 +1,5 @@
 package hello;
 
-public com.example.demo.interfaces BookRepository {
+public   interface BookRepository {
     Book getByIsbn(String isbn);
 }

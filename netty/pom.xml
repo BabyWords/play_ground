@@ -11,7 +11,7 @@
 	<groupId>com.jason.netty</groupId>
 	<artifactId>netty</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>netty</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

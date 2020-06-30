@@ -2,6 +2,6 @@ package com.wujunwen.springbootplay.BO;
 
 import java.net.ConnectException;
 
-public com.example.demo.interfaces ExceptionHandler {
+public   interface ExceptionHandler {
     void handleException(Exception e);
 }

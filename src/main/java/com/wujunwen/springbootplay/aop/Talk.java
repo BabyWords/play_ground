@@ -1,5 +1,5 @@
 package com.wujunwen.springbootplay.aop;
 
-public com.example.demo.interfaces Talk {
+public  interface Talk {
     public void talk(String msg);
 }

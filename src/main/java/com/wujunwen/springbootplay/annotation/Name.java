@@ -1,5 +1,6 @@
 package com.wujunwen.springbootplay.annotation;
 
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -7,6 +8,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @com.example.demo.interface Name {
+public @interface Name {
     public String value() default "";
 }

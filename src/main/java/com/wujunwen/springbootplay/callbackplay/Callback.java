@@ -1,5 +1,5 @@
 package com.wujunwen.springbootplay.callbackplay;
 
-public com.example.demo.interfaces Callback {
+public   interface Callback {
     void printFinished(String msg);
 }

@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @com.example.demo.interface Sex {
+public @interface Sex {
 
     public enum GenderType {
         Male("男"),
