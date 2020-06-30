@@ -1,0 +1,4 @@
+elasticsearch:
+  host: 10.68.7.110
+  port: 9300
+  cluster-name: elasticsearch-kedacom-project-namespace
