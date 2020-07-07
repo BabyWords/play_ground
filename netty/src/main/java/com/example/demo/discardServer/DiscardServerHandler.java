@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.discardServer;
 
 import io.netty.buffer.ByteBuf;
 
@@ -11,6 +11,7 @@ import io.netty.util.ReferenceCountUtil;
  */
 public class DiscardServerHandler extends ChannelInboundHandlerAdapter { // (1)
 
+  //如果收到新消息就会调用这个方法
   @Override
   public void channelRead(ChannelHandlerContext ctx, Object msg) {
     ByteBuf in = (ByteBuf) msg;
