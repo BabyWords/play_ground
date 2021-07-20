@@ -93,13 +93,13 @@ public class Tests {
         System.out.println(data);
     }
 
-    @Test
-    public void test(){
-        URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
-        for (URL url : urls) {
-            System.out.println(url.toExternalForm());
-        }
-    }
+//    @Test
+//    public void test(){
+//        URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
+//        for (URL url : urls) {
+//            System.out.println(url.toExternalForm());
+//        }
+//    }
 
     @Test
     public void test2(){
